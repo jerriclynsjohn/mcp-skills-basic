@@ -1,0 +1,21 @@
+{
+  "name": "mcp-skills-minimal-example",
+  "version": "1.0.0",
+  "description": "A minimal MCP server with a bundled skill (SEP-2640).",
+  "type": "module",
+  "bin": {
+    "mcp-skills-example": "server.js"
+  },
+  "files": ["server.js", "skills"],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "yaml": "2.9.1",
+    "zod": "4.6.2"
+  }
+}
